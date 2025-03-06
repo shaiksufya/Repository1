@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selection Frame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <form>
+                <label for="car-name">CAR NAME:</label>
+                <input type="text" id="car-name" name="car-name" value="Jawanda">
+                <br><br>
+
+                <label for="color">SELECTED COLOR:</label>
+                <input type="text" id="color" name="color" value="Yellow">
+                <br><br>
+
+                <button type="submit">SUBMIT</button>
+                <button type="reset">RESET</button>
+            </form>
+
+            <div class="options">
+                <div class="fuel">
+                    <ul>
+                        <li><input type="radio" name="fuel" value="Gasoline"> GASOLINE</li>
+                        <li><input type="radio" name="fuel" value="Patrol"> PATROL</li>
+                        <li><input type="radio" name="fuel" value="Diesel"> DIESEL</li>
+                        <li><input type="radio" name="fuel" value="Gas"> GAS</li>
+                        <li><input type="radio" name="fuel" value="Other"> OTHER</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li><input type="checkbox" name="feature" value="Air Conditioner"> AIR CONDITIONER</li>
+                        <li><input type="checkbox" name="feature" value="Tire"> TIRE</li>
+                        <li><input type="checkbox" name="feature" value="Light"> LIGHT</li>
+                        <li><input type="checkbox" name="feature" value="CD Player" checked> CD PLAYER</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <img src="sports-car.jpg" alt="Sports Car">
+            <img src="suv-car.jpg" alt="SUV Car">
+        </div>
+    </div>
+</body>
+</html>
